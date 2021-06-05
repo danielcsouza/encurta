@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "encur.ta",
+    "slug": "encur.ta",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/Logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#132742"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"},
+        "package": "br.dev.danielcarlos.encurta"
+        
+      }
+     
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+
