@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
-import { TouchableWithoutFeedback, Keyboard, KeyboardAvoidingView, Platform, Modal, ActivityIndicator } from 'react-native';
+import { TouchableWithoutFeedback, Keyboard, 
+         KeyboardAvoidingView, Platform, Modal,
+         ActivityIndicator } from 'react-native';
 
 
 import{ LinearGradient} from 'expo-linear-gradient';
@@ -54,6 +56,8 @@ export default function Home(){
         }
     }
 
+
+
     return(
         <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
         <LinearGradient
@@ -85,7 +89,7 @@ export default function Home(){
 
             <ContainerContent>
               <Title>Encur.ta</Title>
-                <SubTitle>Cole seu link para encurtar</SubTitle>
+                <SubTitle>Encurte aquele link enorme para um mais prático. </SubTitle>
                 <ContainerInput>
                     <BoxIcon>
                         <Feather
@@ -97,7 +101,7 @@ export default function Home(){
 
                     </BoxIcon>
                     <Input
-                        placeholder="Cole seu link aqui..."
+                        placeholder="Cole ou digite seu link aqui..."
                         placeholderTextColor="white"
                         outCapitaLize="none"
                         outCorrect={false}

@@ -77,7 +77,7 @@ export default function MyLinks(){
                  links.length === 0 &&
                  (
                     <ContainerEmpty>
-                        <WarningText>Você ainda não possui nenhum link!. :( </WarningText>
+                        <WarningText>Você ainda não possui nenhum link! :( </WarningText>
                     </ContainerEmpty>
                  )
 
