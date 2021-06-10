@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import MyLinks from './pages/MyLinks';
 
 import { Ionicons} from '@expo/vector-icons';
+import Externo from './pages/Externo';
 
 const Drawer = createDrawerNavigator();
 
@@ -40,7 +41,6 @@ function Routes(){
             }}
             />
           
-
 
 
             <Drawer.Screen

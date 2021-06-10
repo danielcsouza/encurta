@@ -16,7 +16,7 @@ import { Container, Title, ListLinks, ContainerEmpty, WarningText} from './style
 
 export default function MyLinks(){
 
-        const isFocused= useIsFocused();
+        const isFocused = useIsFocused();
 
         const[links, setLinks] = useState([]);
         const [data, setData] = useState({});
