@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 import { Platform } from 'react-native';
+
 export const Container = styled.View`
 	flex: 1;
 	background-color: #132742;
@@ -24,4 +25,11 @@ export const ContainerEmpty = styled.View`
 export const WarningText = styled.Text`
 	font-size: 17px;
 	color: #fff;
+`;
+
+export const SubTitle = styled.Text`
+	font-size: 14px;
+	color: #fff;
+	margin-left: 20px;
+	margin-top: 2%;
 `;

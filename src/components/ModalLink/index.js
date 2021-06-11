@@ -4,7 +4,7 @@ import { Text, TouchableOpacity, View, TouchableWithoutFeedback, Share } from 'r
 import { ModalContainer, Container, Header, LinkArea, Title, LongUrl, ShortLinkArea, ShortLinkUrl } from './styles';
 import { Feather } from '@expo/vector-icons';
 import Clipboard from 'expo-clipboard';
-import Externo from '../../pages/Externo';
+
 import WebViewAcesso from '../WebView/index';
 
 export default function ModalLink({ onClose, data }) {
@@ -43,10 +43,7 @@ export default function ModalLink({ onClose, data }) {
 
 	return modalURL ? (
 		<ModalContainer>
-			<TouchableWithoutFeedback onPress={onClose}>
-				<View style={{ flex: 1 }} />
-			</TouchableWithoutFeedback>
-
+		
 			<Container>
 				<Header>
 					<TouchableOpacity onPress={onClose}>

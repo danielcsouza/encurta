@@ -12,7 +12,7 @@ import ModalLink from '../../components/ModalLink';
 
 import { getLinksSave, deleteLink } from '../../utils/storeLinks';
 
-import { Container, Title, ListLinks, ContainerEmpty, WarningText} from './styles';
+import { Container, Title, ListLinks, ContainerEmpty, WarningText, SubTitle} from './styles';
 
 export default function MyLinks(){
 
@@ -62,6 +62,7 @@ export default function MyLinks(){
             <Menu/>
 
             <Title>Meus Links</Title>
+            <SubTitle>Arraste o link para esquerda para excluir ou clique para detalhes</SubTitle>
 
             { 
                 loading && 

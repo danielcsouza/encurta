@@ -2,6 +2,8 @@ import styled from 'styled-components/native';
 
 export const ModalContainer = styled.View`
     flex: 1;
+	flex-direction: column;
+	height: 100%;
 `;
 
 export const Container = styled.View`
@@ -10,6 +12,7 @@ export const Container = styled.View`
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 	padding: 0 15px;
+	height: 50px;
 `;
 export const Header = styled.View`
 	flex-direction: row;

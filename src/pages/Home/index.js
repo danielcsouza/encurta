@@ -13,7 +13,7 @@ import { ContainerLogo, Logo, ContainerContent, Title, SubTitle, ContainerInput,
 
 import api from'../../services/api';
 
-import { saveLink} from '../../utils/storeLinks';
+import { saveLink } from '../../utils/storeLinks';
 
 export default function Home(){
 
@@ -89,7 +89,7 @@ export default function Home(){
 
             <ContainerContent>
               <Title>Encur.ta</Title>
-                <SubTitle>Encurte aquele link enorme para um mais prático. </SubTitle>
+                <SubTitle>Troque aquele link enorme por um simples </SubTitle>
                 <ContainerInput>
                     <BoxIcon>
                         <Feather
@@ -103,8 +103,8 @@ export default function Home(){
                     <Input
                         placeholder="Cole ou digite seu link aqui..."
                         placeholderTextColor="white"
-                        outCapitaLize="none"
-                        outCorrect={false}
+                        autoCapitalize="none"
+                        autoCorrect={false}
                         keyboardType="url"
                         value={input}
                         onChangeText={ (text) => setInput(text) }
