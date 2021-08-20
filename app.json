@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "Encur.ta",
+    "name": "Encur.ta ",
     "slug": "encurta",
-    "version": "1.0.0",
+    "version": "1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/Logo.png",
+      "image": "./assets/Logo_branco.png",
       "resizeMode": "contain",
       "backgroundColor": "#132742"
     },
@@ -22,14 +22,14 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"},
-        "package": "br.dev.danielcarlos.encurta"
-        
-      }
-     
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "br.dev.danielcarlos.encurta",
+      "permissions": []
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "description": "Se você está cansado daqueles links enormes, com o Encur.ta você resolve este problema!"
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
   }
-
+}
