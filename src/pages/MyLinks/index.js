@@ -62,7 +62,7 @@ export default function MyLinks(){
             <Menu/>
 
             <Title>Meus Links</Title>
-            <SubTitle>Arraste o link para esquerda para excluir ou toque mais para detalhes</SubTitle>
+            <SubTitle>Arraste o link para esquerda para excluir ou toque para mais detalhes</SubTitle>
 
             { 
                 loading && 
